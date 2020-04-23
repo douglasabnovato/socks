@@ -2,12 +2,20 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>Socks</title>        
     </head>
     <body>
         <div id="app">
-            <h1>{{ product }}</h1>
-            <p>{{ description }}</p>
+            <div class="product">
+                <div class="product-image">
+                    <img :src="image"/>
+                </div>
+                <div class="product-info">
+                    <h1>{{ product }}</h1>
+                    <p>{{ description }}</p>
+                </div>
+            </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <script src="main.js"></script>
