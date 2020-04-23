@@ -10,4 +10,6 @@
 - Get the Style Sheet
 - Get the Socks image   
 
+---
+
 > @douglasabnovato
