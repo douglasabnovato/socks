@@ -2,6 +2,10 @@
 
 ## VueJS
 
-### Um projeto prático em vuejs de uma aplicação de design de meias.
+### Intro to Vue.js - Uma aplicação para exibir um design de meias
+
+[x] the vue instance
+
+[ ] attribute binding 
 
 > @douglasabnovato
