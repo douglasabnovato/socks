@@ -1,7 +1,7 @@
 var app = new Vue ({
     el: '#app',
     data: {
-        product: 'Socks',
-        user: '@douglasabnovato'
+        product: 'Douglas A B Novato',
+        options: '@douglasabnovato'
     }
 })
