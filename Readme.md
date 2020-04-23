@@ -3,10 +3,10 @@
 
 ### Intro to Vue.js - Uma aplicação para exibir um design de meias
 
-[X] the vue instance
+- [x] the vue instance
 - Start the Challenge
 
-[ ] attribute binding 
+- [ ] attribute binding 
 - Get the Style Sheet
 - Get the Socks image   
 
