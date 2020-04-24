@@ -1,0 +1,26 @@
+body{
+    font-family: tahoma;
+    color: #282828;
+    margin: 0px;
+}
+
+.product{
+    display: flex;   
+}
+
+img{
+    border: 1px solid #d8d8d8;
+    width: 70%;
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+}
+
+.product-image{
+    flex-basis: 700px;
+}
+
+.product-info{
+    margin-top: 10px;
+    flex-basis: 500px;
+}
+
