@@ -3,6 +3,7 @@ var app = new Vue ({
     data: {
         product: 'Douglas A B Novato',
         description: '@douglasabnovato',
-        image: 'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg'        
+        image: './images/vmSocks-green-onWhite.jpg'
+        /*'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg'*/
     }
 })
