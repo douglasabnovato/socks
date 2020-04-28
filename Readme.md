@@ -1,5 +1,5 @@
 # Socks
-- VueJS
+- Vue Master - VueJS
 
 ### Intro to Vue.js - Uma aplicação para exibir um design de meias
 
