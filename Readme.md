@@ -8,7 +8,8 @@
 
 - [ ] attribute binding 
 - Get the Style Sheet
-- Get the Socks image   
+- Get the Socks image 
+- Data binding : v-bind : src, alt  
 
 ---
 
