@@ -6,10 +6,14 @@
 - [x] the vue instance
 - Start the Challenge
 
-- [ ] attribute binding 
+- [x] attribute binding 
 - Get the Style Sheet
 - Get the Socks image 
 - Data binding : v-bind : src, alt  
+
+- [ ] Conditional Rendering 
+- Lesson Resource: Get the Style Sheet
+- Coding Challenge: Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!”
 
 ---
 
