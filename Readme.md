@@ -21,9 +21,13 @@
 - Coding Challenge: Add a link to your data object, and use v-bind to sync it up with an anchor tag in your HTML. Hint: you’ll be binding to the href attribute.
 
 - [x] #3 Conditional Rendering 
-- Our Goal:
-- Lesson Resource:
-- Coding Challenge:
+- Our Goal: We want to display text that says if our product is in stock or not, based on our data.
+- Lesson Resource: v-if v-else v-else-if v-show
+- There are Vue directives to conditionally render elements
+- If whatever is inside the directive’s quotes is truthy, the element will display.
+- You can use expressions inside the directive’s quotes.
+- V-show only toggles visibility, it does not insert or remove the element from the DOM.
+- Coding Challenge: Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!”
 
 - [ ] #4 List Rendering 
 - Our Goal:
