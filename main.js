@@ -7,6 +7,7 @@ var app = new Vue ({
         link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',
         inStock: true,
         inventory: 0,
+        onSale: true,
         image: './images/vmSocks-green-onWhite.jpg'
         /*'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg'*/
     }

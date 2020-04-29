@@ -3,16 +3,17 @@
 
 ### Intro to Vue.js - Uma aplicação para exibir um design de meias
 
-- [x] the vue instance
+- [x] #1 the vue instance
 - Start the Challenge
 
-- [x] attribute binding 
+- [x] #2 attribute binding 
 - Get the Style Sheet
 - Get the Socks image 
 - Data binding : v-bind : src, alt  
 
-- [ ] Conditional Rendering 
+- [x] #3 Conditional Rendering 
 - Lesson Resource: Get the Style Sheet
+- v-if v-else-if v-else v-show
 - Coding Challenge: Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!”
 
 ---
