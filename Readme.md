@@ -1,7 +1,5 @@
-# Socks
-- [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
-
-### Intro to Vue.js - Uma aplicação para exibir um design de meias
+## Socks
+### Uma aplicação em VueJS para exibir um design de meias
 
 - [x] #1 the vue instance
 - Our Goal: how to use Vue to display data onto a webpage.
@@ -39,4 +37,5 @@
 
 ---
 
-> @douglasabnovato
+.: Por @douglasabnovato
+- De [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
