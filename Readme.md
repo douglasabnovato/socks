@@ -30,14 +30,9 @@
 - Coding Challenge: Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!”
 
 - [ ] #4 List Rendering 
-- Our Goal:
-- Lesson Resource:
-- Coding Challenge:
-
-- [ ] #X XXX XXX 
-- Our Goal:
-- Lesson Resource:
-- Coding Challenge:
+- Our Goal [ Nosso Objetivo ]:
+- Lesson Resource [ Recurso da Aula ]:
+- Coding Challenge [ Código Desafio ]: 
 
 ---
 
