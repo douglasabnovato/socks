@@ -1,5 +1,5 @@
 # Socks
-- Vue Master - VueJS
+- [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
 
 ### Intro to Vue.js - Uma aplicação para exibir um design de meias
 
