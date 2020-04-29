@@ -15,11 +15,14 @@
                 <div class="product-info">
                     <h1>{{ product }}</h1>
                     <p>{{ description }}</p>
+                    <p v-if="inventory > 10">In Stock</p>
+                    <p v-else-if="10 >= inventory && inventory > 0">Almost sold out !</p>
+                    <p v-else>Out of Stock</p>
                     <a :href="link" target="_blank">More products like this</a>
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>    
         <script src="main.js"></script>
     </body>
 </html>
