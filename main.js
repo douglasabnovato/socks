@@ -4,11 +4,8 @@ var app = new Vue ({
         brand: 'Vue Mastery',
         product: 'Socks',
         selectedVariant: 0,
-        description: 'Style and Comfort',
         altText: 'a pair of socks',
-        link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',
-        inventory: 0,
-        onSale: true,                
+        link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',                     
         sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
         details: ["80% cotton", "20% polyester", "Gender-neutral"], 
         variants: [
@@ -16,7 +13,7 @@ var app = new Vue ({
                 variantId: 2234,
                 variantColor: "Green",
                 variantImage: './images/vmSocks-green-onWhite.jpg',
-                variantQuantity: 0
+                variantQuantity: 10
             },
             {
                 variantId: 2235,
@@ -26,6 +23,7 @@ var app = new Vue ({
             }
         ],
         cart: 0,
+        onSale: true
     },    
     methods: {
         addToCart: function () {
@@ -47,6 +45,12 @@ var app = new Vue ({
         },
         inStock() {
             return this.variants[this.selectedVariant].variantQuantity
+        },
+        sale() {
+            if(this.onSale) {
+                return this.brand + ' ' + this.product + 'are on sale !'
+            }
+                return this.brand + ' ' + this.product + 'are not on sale :('
         }
     }
 })
