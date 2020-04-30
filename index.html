@@ -24,8 +24,11 @@
                         <li>{{ size }}</li>
                     </ul>
 
-                    <div v-for="variant in variants" :key="variant.variantId">
-                        <p @mouseover="updateProduct(variant.variantImage)">{{ variant.variantColor }}</p>
+                    <div v-for="variant in variants" 
+                        :key="variant.variantId"
+                        class="color-box"
+                        :style="{ backgroundColor: variant.variantColor }"
+                        @mouseover="updateProduct(variant.variantImage)">
                     </div>           
                     
                     <p v-if="inventory > 10">In Stock</p>
