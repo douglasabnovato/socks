@@ -24,22 +24,24 @@
                         <li>{{ size }}</li>
                     </ul>
 
-                    <div v-for="variant in variants" 
+                    <div class="color-box"
+                         v-for="variant in variants" 
                         :key="variant.variantId"
-                        class="color-box"
                         :style="{ backgroundColor: variant.variantColor }"
                         @mouseover="updateProduct(variant.variantImage)">
                     </div>           
                     
                     <p v-if="inventory > 10">In Stock</p>
                     <p v-else-if="10 >= inventory && inventory > 0">Almost sold out !</p>
-                    <p v-else>Out of Stock</p>
+                    <p v-else :class="{ outOfStock: !inStock }">Out of Stock</p>
                     
                     <span v-show="onSale">On Sale !</span>                    
                     
                     <p><a :href="link" target="_blank">More products like this</a></p>
                     
-                    <button v-on:click="addToCart">Add to cart</button>
+                    <button v-on:click="addToCart" 
+                            :disabled="!inStock"
+                            :class="{ disabledButton: !inStock }">Add to cart</button>
                     <button @click="removeFromCart">Remove from cart</button>
                     
                     <div class="cart">

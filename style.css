@@ -73,3 +73,7 @@ body {
     width: 100%;
     height: 60px;
   }
+  
+  .outOfStock {
+    text-decoration: line-through;
+  }
