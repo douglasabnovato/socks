@@ -39,7 +39,7 @@
 - Lesson Resource [ Recurso da Aula ]:
 - Coding Challenge [ Código Desafio ]: 
 
-- [ ] #6 Event Handling
+- [ ] #6 Class and Style Binding 
 - Our Goal [ Nosso Objetivo ]:
 - Lesson Resource [ Recurso da Aula ]:
 - Coding Challenge [ Código Desafio ]: 
