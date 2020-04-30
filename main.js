@@ -8,7 +8,18 @@ var app = new Vue ({
         inStock: true,
         inventory: 0,
         onSale: true,
-        details: ["80% cotton", "20% polyester", "Gender-neutral"],
+        variants: [
+            {
+                variantId: 2234,
+                variantColor: "Green"
+            },
+            {
+                variantId: 2235,
+                variantColor: "Blue"
+            }
+        ],
+        sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
+        details: ["80% cotton", "20% polyester", "Gender-neutral"], 
         image: './images/vmSocks-green-onWhite.jpg'
         /*'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg'*/
     }
