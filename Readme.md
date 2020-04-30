@@ -29,11 +29,15 @@
 - V-show only toggles visibility, it does not insert or remove the element from the DOM.
 - Coding Challenge: Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!”
 
-- [ ] #4 List Rendering 
+- [x] #4 List Rendering 
 - Our Goal [ Nosso Objetivo ]:
 - Lesson Resource [ Recurso da Aula ]:
 - Coding Challenge [ Código Desafio ]: 
 
+- [ ] #5 Event Handling
+- Our Goal [ Nosso Objetivo ]:
+- Lesson Resource [ Recurso da Aula ]:
+- Coding Challenge [ Código Desafio ]: 
 ---
 
 .: Por @douglasabnovato

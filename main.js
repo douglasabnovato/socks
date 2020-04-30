@@ -18,6 +18,7 @@ var app = new Vue ({
                 variantColor: "Blue"
             }
         ],
+        cart: 0,
         sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
         details: ["80% cotton", "20% polyester", "Gender-neutral"], 
         image: './images/vmSocks-green-onWhite.jpg'
