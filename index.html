@@ -24,8 +24,8 @@
                     </ul>
 
                     <div v-for="variant in variants":key="variant.variantId">
-                        <p>{{ variant.variantColor }}</p>
-                    </div>                
+                        <p @mouseover="updateProduct(variant.variantImage)">{{ variant.variantColor }}</p>
+                    </div>           
                     <p v-if="inventory > 10">In Stock</p>
                     <p v-else-if="10 >= inventory && inventory > 0">Almost sold out !</p>
                     <p v-else>Out of Stock</p>
