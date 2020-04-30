@@ -31,7 +31,8 @@
                     <p v-else>Out of Stock</p>
                     <span v-show="onSale">On Sale !</span>                    
                     <p><a :href="link" target="_blank">More products like this</a></p>
-                    <button v-on:click="addToCart">Add to Cart</button>
+                    <button v-on:click="addToCart">Add to cart</button>
+                    <button @click="removeFromCart">Remove from cart</button>
                     <div class="cart">
                         <p>Cart({{ cart }})</p>
                     </div>
