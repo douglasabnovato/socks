@@ -34,7 +34,12 @@
 - Lesson Resource [ Recurso da Aula ]:
 - Coding Challenge [ Código Desafio ]: 
 
-- [ ] #5 Event Handling
+- [x] #5 Event Handling
+- Our Goal [ Nosso Objetivo ]:
+- Lesson Resource [ Recurso da Aula ]:
+- Coding Challenge [ Código Desafio ]: 
+
+- [ ] #6 Event Handling
 - Our Goal [ Nosso Objetivo ]:
 - Lesson Resource [ Recurso da Aula ]:
 - Coding Challenge [ Código Desafio ]: 
