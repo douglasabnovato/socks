@@ -1,35 +1,35 @@
 ## Socks
 ### Uma aplicação em VueJS para exibir um design de meias
 
-- [x] #1 the vue instance
+- [x] #1 the vue instance <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:<br/>
+Coding Challenge [ Código Desafio ]:
 
-- [x] #2 attribute binding 
+- [x] #2 attribute binding <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:<br/>
+Coding Challenge [ Código Desafio ]:
 
-- [x] #3 Conditional Rendering 
+- [x] #3 Conditional Rendering <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:<br/>
+Coding Challenge [ Código Desafio ]:
 
-- [x] #4 List Rendering 
+- [x] #4 List Rendering <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: <br/>
+Coding Challenge [ Código Desafio ]: 
 
-- [x] #5 Event Handling
+- [x] #5 Event Handling<br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:<br/> 
+Coding Challenge [ Código Desafio ]: 
 
-- [x] #6 Class and Style Binding 
+- [x] #6 Class and Style Binding <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:<br/> 
+Coding Challenge [ Código Desafio ]: 
 ---
 
 .: Por @douglasabnovato
