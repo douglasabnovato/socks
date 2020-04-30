@@ -2,9 +2,9 @@
 ### Uma aplicação em VueJS para exibir um design de meias
 
 - [x] #1 the vue instance
-- Our Goal [ Nosso Objetivo ]:
-- Lesson Resource [ Recurso da Aula ]:
-- Coding Challenge [ Código Desafio ]:
+Our Goal [ Nosso Objetivo ]:
+Lesson Resource [ Recurso da Aula ]:
+Coding Challenge [ Código Desafio ]:
 
 - [x] #2 attribute binding 
 - Our Goal [ Nosso Objetivo ]:
