@@ -31,7 +31,7 @@ Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]: 
 
-- [ ] #7 Class and Style Binding <br/>
+- [ ] #7 Computed Properties <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]: 
