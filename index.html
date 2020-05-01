@@ -29,8 +29,8 @@
                     <button v-on:click="addToCart" 
                             :disabled="!inStock"
                             :class="{ disabledButton: !inStock }"
-                    >Add to cart</button>
-                    <button @click="removeFromCart">Remove from cart</button>                    
+                    >Add cart</button>
+                    <button @click="removeFromCart">Remove cart</button>                    
                     <div class="cart">
                         <p>Cart({{ cart }})</p>
                     </div>

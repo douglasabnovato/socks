@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: tahoma;
     color: #282828;
     margin: 0px;
@@ -37,10 +37,10 @@ body {
   }
   
   .cart {
-    margin-right: 25px;
+    margin-right: 40px;    
     float: right;
     border: 1px solid #d8d8d8;
-    padding: 5px 20px;
+    padding: 8px 22px;
   }
   
   button {
