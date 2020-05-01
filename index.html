@@ -23,19 +23,13 @@
                     <ul>
                         <li v-for="detail in details">{{ detail }}</li>
                     </ul>
-
-                    <ul v-for="size in sizes">
-                        <li>{{ size }}</li>
-                    </ul>
                     
                     <div v-for="(variant, index) in variants" 
                          class="color-box"
                         :key="variant.variantId"
                         :style="{ backgroundColor: variant.variantColor }"
                         @mouseover="updateProduct(index)">
-                    </div>                                                  
-                    
-                    <p><a :href="link" target="_blank">More products like this</a></p>
+                    </div>                                                                                          
                     
                     <button v-on:click="addToCart" 
                             :disabled="!inStock"
@@ -47,7 +41,8 @@
                     <div class="cart">
                         <p>Cart({{ cart }})</p>
                     </div>
-                </div>
+                    <p><a :href="link" target="_blank">More products like this</a></p>
+                </div>                
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>    

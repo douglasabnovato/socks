@@ -6,7 +6,7 @@ var app = new Vue ({
         selectedVariant: 0,
         altText: 'a pair of socks',
         link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',                     
-        sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
+        
         details: ["80% cotton", "20% polyester", "Gender-neutral"], 
         variants: [
             {
