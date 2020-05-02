@@ -31,7 +31,12 @@ Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]: 
 
-- [ ] #7 Computed Properties <br/>
+- [x] #7 Computed Properties <br/>
+Our Goal [ Nosso Objetivo ]:<br/>
+Lesson Resource [ Recurso da Aula ]:<br/>
+Coding Challenge [ Código Desafio ]: 
+
+- [ ] #8 Components <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]: 
