@@ -18,6 +18,7 @@ Vue.component('product', {
                 <p v-if="inStock">In Stock</p>                    
                 <p v-else :class="{outOfStock: !inStock}">Out of Stock</p>
                 <span>{{ sale }}</span> 
+                <p>Shipping: {{ shipping }}</p>
 
                 <ul>
                     <li v-for="detail in details">{{ detail }}</li>
@@ -28,9 +29,7 @@ Vue.component('product', {
                     :key="variant.variantId"
                     :style="{ backgroundColor: variant.variantColor }"
                     @mouseover="updateProduct(index)">
-                </div>
-
-                <p>User is premium: {{ premium }}</p>
+                </div>                
 
                 <button v-on:click="addToCart" 
                         :disabled="!inStock"
@@ -94,6 +93,12 @@ Vue.component('product', {
         },
         inStock() {
             return this.variants[this.selectedVariant].variantQuantity
+        },
+        shipping() {
+          if (this.premium) {
+            return "Free"
+          }
+            return 2.99
         },
         sale() {
             if (this.onSale) {
