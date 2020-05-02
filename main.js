@@ -1,4 +1,10 @@
 Vue.component('product', {
+    props: {
+        premium:{
+            type: Boolean,
+            required: true
+        }
+    },
     template: `
         <div class="product">
 
@@ -23,6 +29,8 @@ Vue.component('product', {
                     :style="{ backgroundColor: variant.variantColor }"
                     @mouseover="updateProduct(index)">
                 </div>
+
+                <p>User is premium: {{ premium }}</p>
 
                 <button v-on:click="addToCart" 
                         :disabled="!inStock"
@@ -97,5 +105,8 @@ Vue.component('product', {
 })
 
 var app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        premium: true
+    }
 })
