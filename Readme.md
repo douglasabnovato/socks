@@ -41,6 +41,10 @@ Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]: 
 
+- [ ] #9 Communicating Events <br/>
+Our Goal [ Nosso Objetivo ]:<br/>
+Lesson Resource [ Recurso da Aula ]:<br/>
+Coding Challenge [ Código Desafio ]: 
 
 ---
 
