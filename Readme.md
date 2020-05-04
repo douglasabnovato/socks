@@ -1,50 +1,27 @@
 ## Socks
 ### Uma aplicação em VueJS para exibir um design de meias
 
-- [x] #1 the vue instance <br/>
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]:
 
-- [x] #2 attribute binding <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:
+- [x] #1 the vue instance
 
-- [x] #3 Conditional Rendering <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]:
+- [x] #2 attribute binding 
 
-- [x] #4 List Rendering <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #3 Conditional Rendering 
 
-- [x] #5 Event Handling<br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #4 List Rendering  
 
-- [x] #6 Class and Style Binding <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #5 Event Handling 
 
-- [x] #7 Computed Properties <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #6 Class and Style Binding   
 
-- [ ] #8 Components <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #7 Computed Properties   
 
-- [ ] #9 Communicating Events <br/>
-Our Goal [ Nosso Objetivo ]:<br/>
-Lesson Resource [ Recurso da Aula ]:<br/>
-Coding Challenge [ Código Desafio ]: 
+- [x] #8 Components
+
+- [ ] #9 Communicating Events  
 
 ---
 
