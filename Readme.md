@@ -21,8 +21,9 @@ Coding Challenge [ Código Desafio ]:
 
 - [x] #8 Components
 
-- [ ] #9 Communicating Events  
+- [x] #9 Communicating Events  
 
+- [ ] #10 Forms
 ---
 
 .: Por @douglasabnovato
