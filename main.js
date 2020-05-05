@@ -48,11 +48,7 @@ Vue.component('product', {
                         :class="{ disabledButton: !inStock }"
                 >Add cart</button>
 
-                <button @click="removeFromCart">Remove cart</button>
-
-                <div class="cart">
-                    <p>Cart({{ cart }})</p>
-                </div>
+                <button @click="removeFromCart">Remove cart</button>        
 
                 <p><a :href="link" target="_blank">More products like this</a></p>
                 
@@ -81,7 +77,6 @@ Vue.component('product', {
                     variantQuantity: 0
                 }
             ],
-            cart: 0,
             onSale: true
         }
     },
@@ -124,6 +119,7 @@ Vue.component('product', {
 var app = new Vue({
     el: '#app',
     data: {
-        premium: true
+        premium: true,
+        cart: 0
     }
 })
