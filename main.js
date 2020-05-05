@@ -46,10 +46,10 @@ Vue.component('product', {
                 <button v-on:click="addToCart" 
                         :disabled="!inStock"
                         :class="{ disabledButton: !inStock }"
-                >Add cart</button> 
+                >Add Cart</button> 
                 
                 <button @click="removeFromCart">
-                    Remove from Cart
+                    Remove Cart
                 </button>
 
                 <p><a :href="link" target="_blank">More products like this</a></p>
