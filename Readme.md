@@ -1,6 +1,8 @@
 ## Socks
 ### Uma aplicação em VueJS para exibir um design de meias
 
+Beginner
+
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
 Coding Challenge [ Código Desafio ]:
