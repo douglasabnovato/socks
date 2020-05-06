@@ -1,7 +1,7 @@
 ## Socks
 ### Uma aplicação em VueJS para exibir um design de meias
 
-Beginner
+Vue Mastery - Vue JS - Beginner
 
 Our Goal [ Nosso Objetivo ]:<br/>
 Lesson Resource [ Recurso da Aula ]:<br/>
@@ -17,7 +17,8 @@ Coding Challenge [ Código Desafio ]:
 - [x] #8 Components
 - [x] #9 Communicating Events  
 - [x] #10 Forms
-- [ ] #11 Tabs
+- [ ] #11 Tabs  
+
 ---
 
 .: Por @douglasabnovato
