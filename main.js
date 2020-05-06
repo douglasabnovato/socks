@@ -42,7 +42,8 @@ Vue.component('product', {
                 
             </div> 
             
-            <div>
+            <div class="product-reviews-form">
+                <h2>Reviews</h2>
                 <p v-if="!reviews.length">There are no reviews yet.</p>
                 <ul v-else>
                     <li v-for="(review, index) in reviews" :key="index">

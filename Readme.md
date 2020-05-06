@@ -17,6 +17,7 @@ Coding Challenge [ Código Desafio ]:
 - [x] #8 Components
 - [x] #9 Communicating Events  
 - [x] #10 Forms
+- [ ] #11 Tabs
 ---
 
 .: Por @douglasabnovato
