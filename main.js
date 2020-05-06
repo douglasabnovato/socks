@@ -41,19 +41,19 @@ Vue.component('product', {
                 <p><a :href="link" target="_blank">More products like this</a></p>
                 
             </div> 
-
+            
             <div>
                 <p v-if="!reviews.length">There are no reviews yet.</p>
                 <ul v-else>
                     <li v-for="(review, index) in reviews" :key="index">
-                        <p>{{ review.name }}</p>
+                        <p>Name: {{ review.name }}</p>
                         <p>Rating: {{ review.rating }}</p>
-                        <p>{{ review.review }}</p>
+                        <p>Reviews: {{ review.review }}</p>
                     </li>
                 </ul>
             </div>
-
-            <product-review @review-submitted="addReview"></product-review>
+            
+            <product-review @review-submitted="addReview"></product-review> 
 
         </div>
     `,
@@ -174,6 +174,7 @@ Vue.component('product-review',{
             name: null,
             review: [],
             rating: null,
+            recommend: null,
             errors:[]
         }
     },
