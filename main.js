@@ -52,7 +52,7 @@ Vue.component('product', {
                     </li>
                 </ul>
             </div>
-            
+
             <product-review @review-submitted="addReview"></product-review> 
 
         </div>
@@ -135,12 +135,12 @@ Vue.component('product-review',{
 
             <p>
                 <label for="name">Name: </label>
-                <input id="name" v-model="name" placeholder="name">
+                <input required id="name" v-model="name" placeholder="name">
             </p>
 
             <p>
                 <label for="review">Review:</label>
-                <textarea id="review" v-model="review"></textarea>
+                <textarea required id="review" v-model="review"></textarea>
             </p>
 
             <p>
