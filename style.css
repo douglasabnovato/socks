@@ -87,3 +87,21 @@ textarea {
   color: #16C0B0;
   text-decoration: underline;
 }
+
+.product-recommend {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.product-recommend label {
+  margin: 5px 10px 5px 0;
+}
+
+.product-recommend input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
