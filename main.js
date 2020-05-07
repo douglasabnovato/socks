@@ -254,6 +254,7 @@ Vue.component('info-tabs', {
                 <span class="tabs"
                       :class="{ activeTab: selectedTab === tab }"
                       v-for="(tab, index) in tabs"
+                      @click="selectedTab = tab"
                       :key="tab"
                     >{{ tab }}</span>
             </ul>
