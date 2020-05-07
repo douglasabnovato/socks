@@ -1,7 +1,7 @@
 ## Socks
 ### Uma aplicação em VueJS para exibir um design de meias
 
-Vue Mastery - Vue JS - Beginner
+Vue Mastery - Vue JS - Beginner - Intro to Vue.js
 
 - [x] #1 the vue instance
 - [x] #2 attribute binding 
