@@ -18,11 +18,10 @@ Vue.component('product', {
                 <h1>{{ title }}</h1>
                 <p v-if="inStock">In Stock</p>                    
                 <p v-else :class="{outOfStock: !inStock}">Out of Stock</p>
-                <span>{{ sale }}</span> 
-                <p>Shipping: {{ shipping }}</p>                   
-
-                <product-details :details="details"></product-details>
-
+                <span>{{ sale }}</span>  
+                
+                <info-tabs :shipping="shipping" :details="details"></info-tabs>
+                
                 <div class="color-box" 
                     v-for="(variant, index) in variants"                     
                     :key="variant.variantId"
@@ -240,7 +239,7 @@ Vue.component('product-tabs', {
 
         <div v-show="selectedTab === 'Make a Review'">
           <product-review></product-review>
-        </div>
+        </div> 
     
       </div>
     `,
@@ -251,6 +250,24 @@ Vue.component('product-tabs', {
         }
     }
 })
+
+Vue.component('info-tabs', {
+    props: {
+        shipping:{
+            required: true
+        },
+        details: {
+            type: Array,
+            required: true
+        }
+    },
+    template: `
+    
+    `,
+    data() {
+
+    }
+}) 
 
 var app = new Vue({
     el: '#app',
