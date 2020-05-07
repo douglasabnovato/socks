@@ -21,5 +21,5 @@ Coding Challenge [ Código Desafio ]:
 
 ---
 
-.: Por @douglasabnovato
+.: Por Douglas A B Novato - @douglasabnovato
 - De [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
