@@ -54,7 +54,7 @@ Vue.component('product', {
             selectedVariant: 0,
             altText: 'a pair of socks',
             link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',
-            details: ["80% cotton", "20% polyester", "Gender-neutral"],
+            details: ['80% cotton', '20% polyester', 'Gender-neutral'],
             variants: [
                 {
                     variantId: 2234,
@@ -263,7 +263,9 @@ Vue.component('info-tabs', {
             </div>
 
             <div v-show="selectedTab === 'Details'">
-                <li v-for="detail in details">{{ detail }}</li>
+                <ul>
+                    <li v-for="detail in details">{{ detail }}</li>
+                </ul>
             </div>
 
         </div>
