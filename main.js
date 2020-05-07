@@ -40,22 +40,9 @@ Vue.component('product', {
 
                 <p><a :href="link" target="_blank">More products like this</a></p>
                 
-            </div> 
-            
-            <div class="product-reviews-form">
-                <h2>Reviews</h2>
-                <p v-if="!reviews.length">There are no reviews yet.</p>
-                <ul v-else>
-                    <li v-for="(review, index) in reviews" :key="index">
-                        <p>Name: {{ review.name }}</p>
-                        <p>Rating: {{ review.rating }}</p>
-                        <p>Reviews: {{ review.review }}</p>
-                        <p>Recommend: {{ review.recommend }}</p>
-                    </li>
-                </ul>
-            </div>
+            </div>   
 
-            <product-review @review-submitted="addReview"></product-review> 
+            <product-tabs :reviews="reviews"></product-tabs> 
 
         </div>
     `,
@@ -161,7 +148,6 @@ Vue.component('product-review',{
             <label class="radio-recommend">Yes<input type="radio" value="Yes" v-model="recommend"/></label>
             <label class="radio-recommend">No<input type="radio" value="No" v-model="recommend"/></label>
            
-
             <p><input type="submit" value="Submit"></p>
 
         </form>
@@ -216,6 +202,49 @@ Vue.component('product-details',{
             <li v-for="detail in details">{{ detail }}</li>
         </ul>
     `
+})
+
+Vue.component('product-tabs', {
+    props:{
+        reviews:{
+            type: Array,
+            required: false
+        }
+    },
+    template: `
+        <div>
+
+            <div>
+                <span class="tab" 
+                    v-for="(tab, index) in tabs" 
+                    @click="selectedTab = index" 
+                    >{{ tab }}</span>
+            </div>
+
+            <div v-show="selectedTab === 'Review">               
+                <p v-if="!reviews.length">There are no reviews yet.</p>
+                <ul v-else>
+                    <li v-for="(review, index) in reviews" :key="index">
+                        <p>Name: {{ review.name }}</p>
+                        <p>Rating: {{ review.rating }}</p>
+                        <p>Reviews: {{ review.review }}</p>
+                        <p>Recommend: {{ review.recommend }}</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div v-show="selectedTab === 'Make a Review'">
+                <product-review @review-submitted="addReview"></product-review>
+            </div>
+
+        </div>
+    `,
+    data(){
+        return {    
+            tabs: ['Reviews', 'Make a Review'],
+            selectedTab: 'Reviews'
+        }
+    }
 })
 
 var app = new Vue({
