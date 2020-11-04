@@ -21,8 +21,9 @@
 #### Código + Dependências
 
 - git clone "http": ter o projeto na máquina local
-- npm install 
-- Rodar a aplicação: `npm start`
+- `npm install vue`
+- `npm install --global @vue/cli`
+- Rodar a aplicação:  open with Live Server
 
 #### Passo a passo do projeto
 
