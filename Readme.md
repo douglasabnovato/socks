@@ -5,7 +5,7 @@
 ---
 <br>
 
-![Resultado da Aplicação](/images/a-aplicacao-terminada.jpg)
+![Resultado da Aplicação](/images/aplicacao-terminada.jpg)
 
 ### O que é a aplicação
 
