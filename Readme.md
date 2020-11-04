@@ -1,8 +1,34 @@
-## Socks
-### Uma aplicação em VueJS para exibir um design de meias
+<h3 align="center">
+  Socks 🚀
+</h3>
 
-Vue Mastery - Vue JS - Beginner - Intro to Vue.js
+---
+<br>
 
+![Resultado da Aplicação](/images/a-aplicacao-terminada.jpg)
+
+### O que é a aplicação
+
+- Aplicação para expor características para vender meias.
+
+#### Tecnologias/ Ferramentas/ Bibliotecas
+
+- HTML: estrutura 
+- CSS: posicionamento, dimensionamento e muito mais
+- Javascript: efeitos
+- VueJS: os fundamentos, como state, props, components, ciclo de vida.
+
+#### Código + Dependências
+
+- git clone "http": ter o projeto na máquina local
+- npm install 
+- Rodar a aplicação: `npm start`
+
+#### Passo a passo do projeto
+
+- [x] 1. Componentização com VueJS
+- [x] 2. Estrutura HTML 
+- [x] 3. Estilização CSS
 - [x] #1 the vue instance
 - [x] #2 attribute binding 
 - [x] #3 Conditional Rendering 
@@ -15,7 +41,15 @@ Vue Mastery - Vue JS - Beginner - Intro to Vue.js
 - [x] #10 Forms
 - [x] #11 Tabs  
 
----
+#### Próximo passo na aplicação
 
-.: Por Douglas A B Novato - @douglasabnovato
-- De [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
+- Link para o artigo da aplicação 
+
+#### Anotações   
+
+- Fonte do projeto: [Vue Mastery - Beginner - VueJS](https://www.vuemastery.com/courses-path/beginner)
+
+---
+<br>
+
+.: Por [Douglas A B Novato](https://linktr.ee/douglasabnovato)
